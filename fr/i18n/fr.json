@@ -104,7 +104,7 @@
         "from": "de :",
         "to": "à :",
         "last-week": "Semaine dernière",
-        "frequency": "Fréquence:",
+        "frequency": "Période des graphes :",
         "pandafreqoptions-daily": "par JOUR",
         "pandafreqoptions-weekly": "par SEMAINE",
         "pandafreqoptions-biweekly": "BI-HEBDO",
@@ -127,7 +127,9 @@
         "calorie-data-change-decrease": " de diminution en 1 semaine",
         "carbon-data-change-increase": " d'augmentation en 1 semaine",
         "carbon-data-change-decrease": " de diminution en 1 semaine",
-        "pick-a-date": "Choisissez la date"
+        "pick-a-date": "Choisissez la date",
+        "trips": "voyages",
+        "custom": "Personnalisées"
     },
 
     "diary": {
@@ -161,7 +163,7 @@
         "dashboard": "Tableau de bord",
         "summary": "Résumé",
         "chart": "Graphique",
-        "change-data": "Changer date",
+        "change-data": "Changer dates",
         "distance": "Distance",
         "trips": "Déplacements",
         "duration": "Durée",
