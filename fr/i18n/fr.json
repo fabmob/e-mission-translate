@@ -70,7 +70,7 @@
         "nuke-all": "Supprimer buffers et cache",
         "set-ui-channel": "Channel",
         "check-log": "Voir les logs",
-        "check-sensed-data": "Données recueillies",
+        "check-sensed-data": "Données état/activité/positions/",
         "check-map": "Vérifier la carte",
         "collection": "Recueil", 
         "sync": "Synchro",
@@ -99,12 +99,12 @@
         "cancel": "Annuler",
         "confirm": "Confirmer",
         "get": "Ok",
-        "range": "Range",
+        "range": "Période de dates",
         "filter": "Filtre",
         "from": "de :",
         "to": "à :",
         "last-week": "Semaine dernière",
-        "frequency": "Période des graphes :",
+        "frequency": "Fréquence des graphes :",
         "pandafreqoptions-daily": "par JOUR",
         "pandafreqoptions-weekly": "par SEMAINE",
         "pandafreqoptions-biweekly": "BI-HEBDO",
@@ -128,8 +128,8 @@
         "carbon-data-change-increase": " d'augmentation en 1 semaine",
         "carbon-data-change-decrease": " de diminution en 1 semaine",
         "pick-a-date": "Choisissez la date",
-        "trips": "voyages",
-        "custom": "Personnalisées"
+        "trips": "déplacements",
+        "custom": "Dates personnalisées"
     },
 
     "diary": {
