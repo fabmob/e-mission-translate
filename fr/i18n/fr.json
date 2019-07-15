@@ -1,13 +1,13 @@
 {
-    "loading": "Chargement...",
+    "loading" : "Chargement...",
     "map-refresh": "Rafraîchir",
     "map-fixmap": "Ré-afficher la Carte",
     "pull-to-refresh": "Tirer pour rafraîchir",
 
     "weekdays-all": "Tout",
     "weekdays-select": "Jour de la semaine",
-
-    "post-trip-prompt": {
+    
+    "post-trip-prompt":{
         "notification-option-mute": "Silencieux",
         "notification-option-snooze": "En Sommeil",
         "notification-option-choose": "votre choix",
@@ -27,6 +27,7 @@
     },
 
     "post-trip-map-display-tour-incident": "Zoomez puis indiquez le lieu de l'incident et cliquez sur la ligne bleue pour qualifier l'incident ☻ ou ☹",
+
     "tour-next": "Suivant",
     "tour-previous": "Précédent",
     "tour-finish": "Fin",
@@ -45,10 +46,11 @@
     "place-trips-to": "{{trips}} déplacements vers",
     "place-usually-starts": "Commence en général à: {{hour}}:00",
     "place-usually-takes": "Dure en général: {{duration}}",
+
     "trip-start-hours": "Heures de départ",
     "trip-start-duration": "Durée",
-
-    "control": {
+    
+    "control":{
         "profile": "Profil",
         "tracking": "Tracking activé",
         "medium-accuracy": "Précision moyenne",
@@ -68,18 +70,23 @@
         "nuke-all": "Supprimer buffers et cache",
         "set-ui-channel": "Channel",
         "check-log": "Voir les logs",
-        "check-sensed-data": "Données recueillies",
+        "check-sensed-data": "Données état/activité/positions/",
         "check-map": "Vérifier la carte",
-        "collection": "Recueil",
+        "collection": "Recueil", 
         "sync": "Synchro",
-        "transition-notify": "Notifier une transition"
+        "transition-notify": "Notifier une transition",
+        "status": "États",
+        "settings": "Paramètres",
+        "current-location": "Position actuelle:",
+        "start-trip": "Débuter Déplacement",
+        "stop-trip": "Finir Déplacement"
     },
-
-    "general-settings": {
-        "choose-date": "Date",
-        "nuke-ui-state-only": "UI state only",
-        "nuke-native-cache-only": "Native cache only",
-        "nuke-everything": "Tout",
+    
+    "general-settings":{
+        "choose-date" : "Date",
+        "nuke-ui-state-only" : "UI state only",
+        "nuke-native-cache-only" : "Native cache only",
+        "nuke-everything" : "Tout",
         "clear-data": "Effacer les données",
         "cancel": "Annuler",
         "user-data-erased": "Données effacées.",
@@ -88,21 +95,54 @@
         "consent-found": "Consentement trouvé!",
         "consented-to": "Accord pour le protocole {{protocol_id}}, {{approval_date}}",
         "consented-ok": "OK",
-        "share-message": "Rejoins moi pour rendre les moyens de transports plus écolos \nTélécharges l'application emission:",
-        "share-subject": "Emission - UC Berkeley Research Project",
-        "share-url": "https://bic2cal.eecs.berkeley.edu/#download"
+        "share-message": "Participez au test de l'application :",
+        "share-subject": "Traceur - fabrique des mobilités",
+        "share-url": "https://oultim.frama.site",
+        "states":{
+            "ongoing-trip": "Déplacement en cours",
+            "start": "Initialisation",
+            "tracking-stopped": "Tracking terminé",
+            "waiting-for-trip-start": "En attente de déplacement",
+            "unknown": "Inconnu"
+        },
+        "wifi":{
+            "enabled": "Activé",
+            "disabled": "Désactivé"
+        },
+        "location":{
+            "enabled": "Activée",
+            "disabled": "Désactivée"
+        },
+        "network":{
+            "cell": "Cellulaire",
+            "unknown": "Inconnue",
+            "none": "Aucune"
+        },
+        "alert-tracking":{
+            "please-enable-tracking": "Merci d'activer le Tracking",
+            "start-trip-without-tracking": "Vous avez essayé de débuter un voyage sans avoir activé le tracking. Merci de l'activer avant de réessayer"
+        },
+        "confirm-popup":{
+            "warning": "Attention",
+            "forcing-end-trip-warning": "Forcer la fin d'un déplacement peut causer des bugs. Voulez-vous vraiment forcer la fin du déplacement ?",
+            "forcing-start-trip-warning": "Forcer la début d'un déplacement peut causer des bugs. Voulez-vous vraiment forcer la début du déplacement ?",
+            "cancel": "Annuler",
+            "confirm": "Confirmer"
+        },
+        "retrieving-location": "Récupération de la position...",
+        "cannot-retrieve-position-location-disabled": "Localisation désactivée, récupération de votre position impossible."
     },
 
-    "metrics": {
+    "metrics":{
         "cancel": "Annuler",
         "confirm": "Confirmer",
         "get": "Ok",
-        "range": "Range",
+        "range": "Période de dates",
         "filter": "Filtre",
         "from": "de :",
         "to": "à :",
         "last-week": "Semaine dernière",
-        "frequency": "Fréquence:",
+        "frequency": "Fréquence des graphes :",
         "pandafreqoptions-daily": "par JOUR",
         "pandafreqoptions-weekly": "par SEMAINE",
         "pandafreqoptions-biweekly": "BI-HEBDO",
@@ -156,20 +196,20 @@
     "user-height": "Taille",
     "user-weight": "Poids",
     "user-age": "Age",
-
-    "main-metrics": {
+    
+    "main-metrics":{
         "dashboard": "Tableau de bord",
         "summary": "Résumé",
         "chart": "Graphique",
-        "change-data": "Changer date",
+        "change-data": "Changer dates",
         "distance": "Distance",
         "trips": "Déplacements",
         "duration": "Durée",
         "speed": "Vitesse",
         "footprint": "Empreinte",
-        "optimal": "Optimal :",
+        "optimal": "Optimale :",
         "average": "Moyenne :",
-        "worst": "Pire :",
+        "worst": "Minimale :",
         "lastweek": "Semaine dernière :",
         "calories": "Calories",
         "calibrate": "Calibrer",
@@ -180,28 +220,28 @@
         "equals-bananas": "soit {bananas, plural, =0{0 bananes} one {1 banane} other {# bananes}}"
     },
 
-    "main-diary": "Journal",
+    "main-diary" : "Journal",
     
-    "main-heatmap": {
+    "main-heatmap":{
         "title": "Points chauds",
-        "counts": "Comptage",
-        "stress": "Stress",
-        "from": "De :",
-        "to": "à :",
-        "get": "Go !",
+        "counts" : "Comptage",
+        "stress" : "Stress",
+        "from" : "De :",
+        "to" : "à :",
+        "get" : "Go !",
         "all": "TOUT",
         "none": "AUCUN",
         "bicycling": "VELO",
         "walking": "MARCHE",
         "in-vehicle": "VEHICULE",
-        "select-travel-mode": "Choix du mode",
+        "select-travel-mode" : "Choix du mode",
         "cancel": "Annuler",
         "tour-datepicker": "Cette carte superpose les données de tous les utilisateurs. Choisissez les dates, filtrez selon l'heure et le jour de la semaine.",
         "tour-mode": "Cliquez ici pour filtrer par mode. Par défaut, tous les modes sont affichés.",
         "tour-get": "Cliquez ici pour générer la carte."
     },
-
-    "details": {
+    
+    "details":{
         "speed": "Vitesse",
         "time": "Durée",
         "tour-detail-content": "Pour signaler un incident, Zoomez puis indiquez le lieu de l'incident et cliquez sur la ligne bleue pour qualifier l'incident ☻ ou ☹",
@@ -209,21 +249,19 @@
         "tour-sectionPct-content": "% du temps passé dans chaque mode"
     },
 
-    "list-explainDraft-alert": "Le déplacement n'a encore été analysé. Si cela dure + de 24H, signalez-le à votre administrateur système !",
+    "list-explainDraft-alert": "Le déplacement n'a encore été analysé. Si cela dure + de 24H, signalez-le nous traceur.fabmob@gmaiL.com merci!",
     "list-datepicker-today": "Aujourd'hui",
     "list-datepicker-close": "Fermer",
     "list-datepicker-set": "Définir",
-    "list-tour-datepicker-button": "Choisissez le jour à afficher.",
-    "list-tour-diary-entry": "Cliquez sur la carte pour + de détails.",
-    "list-tour-map-fix-button": "Cliquez pour rafraichir la carte.",
-
-    "service": {
+    "list-tour-datepicker-button" : "Choisissez le jour à afficher.",
+    "list-tour-diary-entry" : "Cliquez sur la carte pour + de détails.",
+    "list-tour-map-fix-button" : "Cliquez pour rafraichir la carte.",
+    
+    "service":{
         "reading-server": "Données lues du serveur...",
         "reading-cache": "Données lues dans le cache...",
         "reading-unprocessed-data": "Données non traitées en cours de lecture..."
     },
-
-    "post-trip-manual-incident-time": "Jour/Heure de l'incident",
 
     "email-service":{
         "email-account-not-configured": "Le compte email n'est pas configuré",
@@ -238,19 +276,32 @@
             "subject-data-dump-from-to": "Données du {{start}} au {{end}}",
             "body-data-consists-of-list-of-entries": "Les données sont une liste d'entrées.\n Vous pouvez trouver le format d'une entrée au lien suivant : https://github.com/e-mission/e-mission-server/tree/master/emission/core/wrapper \nLes données peuvent être chargées localement en suivant les instructions indiquées ici https://github.com/e-mission/e-mission-server#loading-test-data \n et peuvent être manipulées en suivant l'exemple disponible à ce lien : https://github.com/e-mission/e-mission-server/blob/master/Timeseries_Sample.ipynb"
         }
-    },
-    
-    "consent": {
+
+    "post-trip-manual-incident-time" : "Jour/Heure de l'incident",
+   
+    "consent":{
         "button-accept": "J'accepte",
         "button-decline": "Je refuse"
     },
 
-    "updatecheck": {
+    "updatecheck":{
         "downloading-update": "Mise à jour de l'UI uniquement",
         "extracting-update": "Récupération de la mise à jour",
         "done": "Mise à jour faire, chargement en cours...",
         "download-new-ui": "Télécharger la mise à jour ?",
         "download-not-now": "Pas maintenant",
         "download-apply": "Appliquer"
+    },
+
+    "main-surveys": {
+        "surveys": "Enquêtes",
+        "surveys-unanswered": "Enquêtes non renseignées",
+        "surveys-completed": "Enquêtes complétées",
+        "no-unanswered-surveys": "Aucune enquête non renseignée",
+        "no-completed-surveys" : "Aucune enquête complétée...",
+        "received": "Reçue le",
+        "expires": "Expire :",
+        "last-change": "Dernière modif. ",
+        "never": "Jamais"
     }
 }
