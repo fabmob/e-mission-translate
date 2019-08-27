@@ -69,7 +69,7 @@
         "invalidate-cached-docs": "Invalider les docs en cache",
         "nuke-all": "Supprimer buffers et cache",
         "set-ui-channel": "Channel",
-        "check-log": "Voir les logs",
+        "check-log": "UserCache",
         "check-sensed-data": "Données état/activité/positions/",
         "check-map": "Vérifier la carte",
         "collection": "Recueil", 
