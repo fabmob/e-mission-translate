@@ -7,6 +7,8 @@
          {"text":"Taxi","value":"taxi"},
          {"text":"Bus","value":"bus"},
          {"text":"Treno","value":"train"},
+         {"text":"Metro","value":"subway"},
+         {"text":"Tramway","value":"tramway"},
          {"text":"Navetta","value":"free_shuttle"},
          {"text":"Altro","value":"other_mode"}],
       "purposeOptions" : [
